@@ -8,9 +8,9 @@ const Map = () => {
          src='/images/map.png'
         />
       </div>
-      <div className='flex items-center w-[50%] justify-between p-5  '>
+      <div className='flex items-center w-[50%] justify-between py-[42px]  '>
         <div>
-        <p>
+        <p className='text-[14px] text-[#989B9F]'>
         Population Rank
         </p>
         <p className='text-[24px] font-bold'>
@@ -18,7 +18,7 @@ const Map = () => {
         </p>
       </div>
       <div>
-        <p>
+        <p className='text-[14px] text-[#989B9F]'>
         Population Rank
         </p>
         <p className='text-[24px] font-bold'>
@@ -26,7 +26,7 @@ const Map = () => {
         </p>
       </div>
       <div>
-        <p>
+        <p className='text-[14px] text-[#989B9F]'>
         Population Rank
         </p>
         <p className='text-[24px] font-bold'>
@@ -36,12 +36,12 @@ const Map = () => {
       </div>
 
       <div className='w-[50%] border border-[#1C4966] rounded-[20px] px-[24px] py-[20px] '>
-        <h3>
+        <h3 className='font-[600] text-[20px] text-[#6A6A6A] leading-[25px] py-[33px] text-[#111111] '>
         How much can you expect to make?
         </h3>
         <div className='flex justify-between items-center'>
-            <div>Initial Investment</div>
-            <div>$ 50, 000</div>
+            <div className='py-[14px]  text-[20px] text-[#6A6A6A] '>Initial Investment</div>
+            <div className='text-[#6A6A6A]'>$ 50, 000</div>
 
         </div>
         <div>
@@ -51,8 +51,8 @@ const Map = () => {
         </div>
 
         <div className='flex justify-between items-center'>
-            <div>Property value growth ( 5 year ) </div>
-            <div>30%</div>
+            <div className='py-[14px]  text-[20px] text-[#6A6A6A] '>Property value growth ( 5 year ) </div>
+            <div className='text-[#6A6A6A]'>30%</div>
 
         </div>
         <div>
@@ -62,8 +62,8 @@ const Map = () => {
         </div>
 
         <div className='flex justify-between items-center'>
-            <div>Initial Investment</div>
-            <div>10%</div>
+            <div className='py-[14px]  text-[20px] text-[#6A6A6A] '>Initial Investment</div>
+            <div className='text-[#6A6A6A]'>10%</div>
 
         </div>
         <div>
@@ -72,14 +72,14 @@ const Map = () => {
             />
         </div>
         <div className='flex justify-between items-center'>
-            <div>Expected Return on investment </div>
-            <div>$00.00</div>
+            <div className='py-[14px]  text-[20px] text-[#6A6A6A] '>Expected Return on investment </div>
+            <div className='text-[#6A6A6A]'>$00.00</div>
 
         </div>
-        <div className='flex justify-center'>
+        <div className='flex justify-center mt-[14px] mb-[40px] font-[600] text-[15px] '>
         $00.00
         </div>
-        <p>
+        <p className='text-black opacity-[80%] '>
         All projected values are before any property costs and platform fees. and based on a 5-year holding period. We expect the asset value to grow 30% over the next 5 years.
         </p>
       </div>
