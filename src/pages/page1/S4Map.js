@@ -8,7 +8,7 @@ const Map = () => {
          src='/images/map.png'
         />
       </div>
-      <div className='flex items-center w-[50%] justify-between py-[42px]  '>
+      <div className='flex items-center w-[70%] justify-between py-[42px]  '>
         <div>
         <p className='text-[14px] text-[#989B9F]'>
         Population Rank
@@ -36,7 +36,7 @@ const Map = () => {
       </div>
 
       <div className='w-[50%] border border-[#1C4966] rounded-[20px] px-[24px] py-[20px] '>
-        <h3 className='font-[600] text-[20px] text-[#6A6A6A] leading-[25px] py-[33px] text-[#111111] '>
+        <h3 className='font-[600] text-[20px] leading-[25px] py-[33px] text-[#111111] '>
         How much can you expect to make?
         </h3>
         <div className='flex justify-between items-center'>
@@ -76,7 +76,7 @@ const Map = () => {
             <div className='text-[#6A6A6A]'>$00.00</div>
 
         </div>
-        <div className='flex justify-center mt-[14px] mb-[40px] font-[600] text-[15px] '>
+        <div className='flex justify-center mt-[14px] mb-[40px] font-[600] text-[15px] w-full h-[60px] items-center bg-[#EBEEF7] rounded-[16px] '>
         $00.00
         </div>
         <p className='text-black opacity-[80%] '>
