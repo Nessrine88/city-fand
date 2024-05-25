@@ -1,4 +1,28 @@
+/* Styling for navigation links */
 .nav-links li a {
     padding: 2rem;
     align-items: flex-end;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 15.12px;
+    text-align: center;
+    color: #111111;
+    width: 15px;
+}
+.fa-bars {
+    display: none;
+}
+
+/* Media query to hide elements with the 'hidden' class between 320px and 760px */
+@media (min-width: 320px) and (max-width: 760px) {
+    .hidden {
+        display: none;
+    }
+    .fa-bars {
+        display: block;
+        position: absolute;
+        float: right;
+        right: 1rem;
+    }
 }

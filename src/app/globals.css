@@ -8,7 +8,8 @@
   margin: 0;
 }
 body {
-  padding: 2rem;
+  padding:0 4rem;
+  font-family: 'Plus Jakarta Sans';
 }
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -27,5 +28,10 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+@media (min-width: 320px) and (max-width: 760px) {
+  body {
+    padding: 0 2rem;
   }
 }
