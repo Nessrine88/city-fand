@@ -61,7 +61,7 @@ const Measure = () => {
           </div>
         </div>
       </div>
-      <div className='flex mt-2'>
+      <div className='flex mt-[50px] '>
         <i className="fas fa-arrow-left mr-2 text-gray-500"></i>
         <i className="fas fa-arrow-right ml-2 text-black"></i>
       </div>
