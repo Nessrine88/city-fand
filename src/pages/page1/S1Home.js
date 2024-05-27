@@ -7,7 +7,9 @@ const Home = () => {
     <div className='pt-[61.5px]' >
       <div className='flex items-center p-1'>
         <div className='p-1'>
-        <i className="fas fa-chevron-left mr-2 text-[#25282B] w-[6px] h-[12px]" ></i>
+       
+       
+       
         </div>
         <div className='p-1'>
         <p className='text-[#1B4965] text-[15px] '> Back to Listing</p>
